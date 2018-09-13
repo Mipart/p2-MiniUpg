@@ -1,0 +1,11 @@
+C:\Users\elev\Documents\Visual Studio 2017\Projects\MiniUppgiftF\MiniUppgiftF\bin\Debug\MiniUppgiftF.exe.config
+C:\Users\elev\Documents\Visual Studio 2017\Projects\MiniUppgiftF\MiniUppgiftF\bin\Debug\MiniUppgiftF.exe
+C:\Users\elev\Documents\Visual Studio 2017\Projects\MiniUppgiftF\MiniUppgiftF\bin\Debug\MiniUppgiftF.pdb
+C:\Users\elev\Documents\Visual Studio 2017\Projects\MiniUppgiftF\MiniUppgiftF\obj\Debug\MiniUppgiftF.csprojAssemblyReference.cache
+C:\Users\elev\Documents\Visual Studio 2017\Projects\MiniUppgiftF\MiniUppgiftF\obj\Debug\MiniUppgiftF.Form1.resources
+C:\Users\elev\Documents\Visual Studio 2017\Projects\MiniUppgiftF\MiniUppgiftF\obj\Debug\MiniUppgiftF.Properties.Resources.resources
+C:\Users\elev\Documents\Visual Studio 2017\Projects\MiniUppgiftF\MiniUppgiftF\obj\Debug\MiniUppgiftF.csproj.GenerateResource.cache
+C:\Users\elev\Documents\Visual Studio 2017\Projects\MiniUppgiftF\MiniUppgiftF\obj\Debug\MiniUppgiftF.csproj.CoreCompileInputs.cache
+C:\Users\elev\Documents\Visual Studio 2017\Projects\MiniUppgiftF\MiniUppgiftF\obj\Debug\MiniUppgiftF.exe
+C:\Users\elev\Documents\Visual Studio 2017\Projects\MiniUppgiftF\MiniUppgiftF\obj\Debug\MiniUppgiftF.pdb
+C:\Users\elev\Documents\Visual Studio 2017\Projects\MiniUppgiftF\MiniUppgiftF\obj\Debug\MiniUppgiftF.ApartmentComplexCreator.resources
