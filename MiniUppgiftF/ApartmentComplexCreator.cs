@@ -13,6 +13,7 @@ namespace MiniUppgiftF
     public partial class ApartmentComplexCreator : Form
     {
         Apartment apart;
+        bool isChecked = false;
 
         public ApartmentComplexCreator(int apartmentNumber)
         {
@@ -44,5 +45,20 @@ namespace MiniUppgiftF
         }
 
 
+        private void radioStatus_Click(object sender, EventArgs e)
+        {
+            if (radioStatus.Checked && !isChecked)
+                radioStatus.Checked = false;
+            else
+            {
+                radioStatus.Checked = true;
+                isChecked = false;
+            }
+        }
+
+        private void radioStatus_CheckedChanged(object sender, EventArgs e)
+        {
+            isChecked = radioStatus.Checked;
+        }
     }
 }

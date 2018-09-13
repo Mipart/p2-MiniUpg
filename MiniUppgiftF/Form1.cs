@@ -20,8 +20,9 @@ namespace MiniUppgiftF
             cbxApartmentComplex.Items.Clear();
             for (int i = 0; i < ac.Count; i++)
             {
-                cbxApartmentComplex.Items.Add("Complex " + i + 1);
+                cbxApartmentComplex.Items.Add("Complex " + (i +1));
             }
+            cbxApartmentComplex.SelectedIndex = 0;
         }
 
         //Updaterar listboxen så att man får fram info om lägenheterna.
@@ -29,10 +30,16 @@ namespace MiniUppgiftF
         {
             lbxApartmens.Items.Clear();
             List<string> s = ac[cbxApartmentComplex.SelectedIndex].GetApartmentns();
-            foreach (string item in s)
+
+            for (int i = 0; i < s.Count; i++)
             {
-                lbxApartmens.Items.Add(item);
+                lbxApartmens.Items.Add($"{(cbxApartmentComplex.SelectedIndex + 1)}:{(i+1)}. {s[i]}");
             }
+
+            //foreach (string item in s)
+            //{
+            //    lbxApartmens.Items.Add(item);
+            //}
         }
 
         //Skapar ett nytt komplex med lägenheter
@@ -52,7 +59,7 @@ namespace MiniUppgiftF
             }
             catch (Exception e)
             {
-                MessageBox.Show("No Apartment selected!\n\n" + e,"Warning",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                MessageBox.Show("No Apartment selected!\n\n");
             }
         }
 

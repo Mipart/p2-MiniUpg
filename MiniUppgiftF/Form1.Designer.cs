@@ -64,14 +64,14 @@
             this.lbxApartmens.ItemHeight = 25;
             this.lbxApartmens.Location = new System.Drawing.Point(12, 90);
             this.lbxApartmens.Name = "lbxApartmens";
-            this.lbxApartmens.Size = new System.Drawing.Size(181, 129);
+            this.lbxApartmens.Size = new System.Drawing.Size(181, 154);
             this.lbxApartmens.TabIndex = 2;
             this.lbxApartmens.SelectedIndexChanged += new System.EventHandler(this.lbxApartmens_SelectedIndexChanged);
             // 
             // lblApartmentNum
             // 
             this.lblApartmentNum.AutoSize = true;
-            this.lblApartmentNum.Location = new System.Drawing.Point(12, 237);
+            this.lblApartmentNum.Location = new System.Drawing.Point(12, 247);
             this.lblApartmentNum.Name = "lblApartmentNum";
             this.lblApartmentNum.Size = new System.Drawing.Size(129, 25);
             this.lblApartmentNum.TabIndex = 4;
@@ -105,7 +105,7 @@
             // 
             // btnChangeStatus
             // 
-            this.btnChangeStatus.Location = new System.Drawing.Point(12, 260);
+            this.btnChangeStatus.Location = new System.Drawing.Point(12, 270);
             this.btnChangeStatus.Name = "btnChangeStatus";
             this.btnChangeStatus.Size = new System.Drawing.Size(181, 29);
             this.btnChangeStatus.TabIndex = 9;

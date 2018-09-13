@@ -53,9 +53,10 @@
             this.radioStatus.Name = "radioStatus";
             this.radioStatus.Size = new System.Drawing.Size(178, 29);
             this.radioStatus.TabIndex = 1;
-            this.radioStatus.TabStop = true;
             this.radioStatus.Text = "Occupied/Empty";
             this.radioStatus.UseVisualStyleBackColor = true;
+            this.radioStatus.CheckedChanged += new System.EventHandler(this.radioStatus_CheckedChanged);
+            this.radioStatus.Click += new System.EventHandler(this.radioStatus_Click);
             // 
             // txtNumberOfRooms
             // 
